@@ -11,5 +11,6 @@ let qq = 1
 while (qq <= 20) {
   if (qq % 2 !== 0)
     sum += qq;
+  console.log(sum);
+  qq++;
 }
-qq++;

@@ -6,8 +6,10 @@
 */
 
 // your code
-const factorial = 1
-const n = 1
+console.log(1);
+
+let factorial = 1
+let n = 1
 
 while (n <= 10) {
   factorial *= n;
