@@ -6,6 +6,11 @@
 */
 
 // your code
-let factorial
+const factorial = 1
+const n = 1
 
-//bobr
+while (n <= 10) {
+  factorial *= n;
+   n++;
+}
+  console.log(factorial);
