@@ -11,18 +11,18 @@ let dice1 // your code
 let dice2 // your code
 let isWinningDouble // your code
 
-// while (!isWinningDouble) {
-//    dice1 = Math.floor(Math.random() * 6) + 1;
-//      dice2 = Math.floor(Math.random() * 6) + 1;
-//      if  (dice1 === 4 && dice2 === 4) || (dice1 === 5 && dice2 === 5) || (dice1 === 6 && dice2 === 6) {
-//          console.log("WINNER!")
-//           isWinningDouble = true
-//      }
-//      else {
-//       console.log( "Try your luck again!" )
-//        isWinningDouble = false
-//      }
-// }
+while (!isWinningDouble) {
+   dice1 = Math.floor(Math.random() * 6) + 1;
+     dice2 = Math.floor(Math.random() * 6) + 1;
+     if  ((dice1 === 4 && dice2 === 4) || (dice1 === 5 && dice2 === 5) || (dice1 === 6 && dice2 === 6)) {
+         console.log("WINNER!")
+          isWinningDouble = true
+     }
+     else {
+      console.log( "Try your luck again!" )
+       isWinningDouble = false
+     }
+}
 
 /*
 console.log('Первый бросок: ' + dice1)
